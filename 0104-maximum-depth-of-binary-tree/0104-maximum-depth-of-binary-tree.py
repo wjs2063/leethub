@@ -8,15 +8,14 @@ class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         answer  = 0 
         #
-        def dfs(root,c):
-            if root == None :
-                return
+        def dfs(root,cnt):
             nonlocal answer
-            if root.left :
-                dfs(root.left,c + 1)
-            if root.right:
-                dfs(root.right,c + 1)
-            answer = max(answer,c)
+            if root == None:
+                return
+            answer = max(answer,cnt)
+            dfs(root.left,cnt + 1)
+            dfs(root.right,cnt + 1)
         dfs(root,1)
         return answer
+            
             
