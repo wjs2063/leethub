@@ -27,7 +27,7 @@ class Solution:
                     for i in range(1,5):
                         if i == d:continue
                         nx,ny = x + dirs[i][0], y + dirs[i][1]
-                        if 0 <= nx < n and 0 <= ny < m:
+                        if 0 <= nx < n and 0 <= ny < m and not vis[nx][ny]:
                             heappush(q,(cnt + 1,(nx,ny,grid[nx][ny])))
                     vis[x][y] = 1
             return n*m
