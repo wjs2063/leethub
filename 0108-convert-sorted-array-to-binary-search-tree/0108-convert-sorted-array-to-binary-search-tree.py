@@ -8,15 +8,14 @@ class Solution:
     def sortedArrayToBST(self, nums: List[int]) -> Optional[TreeNode]:
         #slicing vs index solution
         #reconfig func -> input : arr
-        def reconfig(nums):
-            if len(nums) == 0:
-                return None
-            mid = len(nums) // 2
+        def reconfig(nums,l,r):
+            if l > r :return
+            mid = (l + r) // 2
             root = TreeNode(nums[mid])
-            root.left = reconfig(nums[:mid])
-            root.right = reconfig(nums[mid + 1:])
+            root.left = reconfig(nums,l,mid - 1)
+            root.right = reconfig(nums,mid + 1,r)
             return root
-        root = reconfig(nums)
+        root = reconfig(nums,0,len(nums) - 1)
         return root
         
             
