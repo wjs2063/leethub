@@ -7,8 +7,10 @@ class Solution:
             l[i] += l[i - 1]
         for i in range(n - 1,-1,-1):
             r[i] += r[i + 1]
-        print(l,r)
         for i,v in enumerate(nums):
             if l[i] == r[i + 1]:return i
         return -1
+        # 0 1 2 3 4 5
+        # 0 1 2 3 4 5
+        #   0 1 2 3 4 
         
