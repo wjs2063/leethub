@@ -6,7 +6,7 @@ class Solution:
         h = defaultdict(list)
         for key in c:
             h[c[key]].append(key)
-        idx = 10**5
+        idx = len(nums)
         ans = []
         while k:
             while k and h[idx] :
