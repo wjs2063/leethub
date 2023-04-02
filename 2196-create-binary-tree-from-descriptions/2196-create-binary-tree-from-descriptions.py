@@ -8,6 +8,8 @@ class Solution:
     def createBinaryTree(self, descriptions: List[List[int]]) -> Optional[TreeNode]:
         from collections import defaultdict
         def find(a):
+            if a not in parent:
+                parent[a] = a
             if parent[a] != a:
                 parent[a] = find(parent[a])
             return parent[a]
@@ -15,7 +17,7 @@ class Solution:
             x,y = find(a),find(b)
             parent[x] = y 
         
-        parent = [i for i in range(10**5 + 1)]
+        parent = defaultdict(int)
         tree = defaultdict(list)
         for p,c,is_left in descriptions:
             tree[p].append([c,is_left])
