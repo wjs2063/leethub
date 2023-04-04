@@ -11,11 +11,11 @@ class Solution:
             h[r] -= c 
         sn = 0
         ans = []
-        for key in sorted(h):
+        for en in sorted(h):
             if h[sn]:
-                ans.append([sn,key,h[sn]])
-            h[key] += h[sn]
-            sn = key
+                ans.append([sn,en,h[sn]])
+            h[en] += h[sn]
+            sn = en
         return ans
                 
             
