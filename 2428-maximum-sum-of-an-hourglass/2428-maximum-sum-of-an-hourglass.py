@@ -14,8 +14,8 @@ class Solution:
                 s += grid[nx][ny]
             return s 
         ans = 0
-        for i in range(n):
-            for j in range(m):
+        for i in range(1,n - 1):
+            for j in range(1,m - 1):
                 ans = max(ans,solve(i,j))
         return ans
                 
