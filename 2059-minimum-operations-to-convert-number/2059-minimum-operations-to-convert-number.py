@@ -8,7 +8,6 @@ class Solution:
             q = deque([(start,0)])
             while q:
                 x,time = q.popleft()
-                print(x,time)
                 if x == goal:return time
                 
                 for i,v in enumerate(nums):
