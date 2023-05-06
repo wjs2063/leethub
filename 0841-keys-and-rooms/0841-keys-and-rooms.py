@@ -18,7 +18,6 @@ class Solution:
                         q.append(nx)
             return vis
         vis = bfs(rooms)
-        print(vis)
         for i,v in enumerate(rooms):
             if not v :continue
             if i not in vis:return False
