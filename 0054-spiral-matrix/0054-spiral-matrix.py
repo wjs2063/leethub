@@ -1,39 +1,27 @@
 class Solution:
     def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
-        n , m = len(matrix), len(matrix[0])
-        cnt = n*m - 1
-        visited = [ [ False ]*m for _ in range(n)]
-        i,j = 0,0
-        answer = [matrix[0][0]]
-        visited[0][0] = True
-        while cnt > 0 :
-            # right
-            while j + 1 < m and not visited[i][j + 1]:
-                visited[i][j + 1] = True
-                answer.append(matrix[i][j + 1])
-                j += 1
-                cnt -= 1
-                
-            # down
-            while i + 1 < n and not visited[i + 1][j]:
-                visited[i + 1][j] = True
-                answer.append(matrix[i + 1][j])
-                i += 1
-                cnt -= 1
-                
-            # left
-            while j - 1 >= 0 and not visited[i][j - 1]:
-                visited[i][j - 1] = True
-                answer.append(matrix[i][j - 1])
-                j -= 1
-                cnt -= 1
-                
-            # up
-            while i - 1 >= 0 and not visited[i - 1][j]:
-                visited[i - 1][j] = True
-                answer.append(matrix[i - 1][j])
-                i -= 1
-                cnt -= 1
-                
-        return answer
+        n = len(matrix)
+        m = len(matrix[0])
+        cnt = n * m 
+        vis = set()
+        x,y = 0,0
+        d = 0
+        
+        dx = [0,1,0,-1]
+        dy = [1,0,-1,0]
+        res = []
+        while cnt :
+            res.append(matrix[x][y])
+            vis.add((x,y))
+            nx,ny = x + dx[d],y + dy[d]
             
+            if not (0 <= nx < n and 0 <= ny < m):
+                d = (d + 1) % 4
+                x,y = x + dx[d],y + dy[d]
+            elif (nx,ny) in vis:
+                d = (d + 1) % 4
+                x,y = x + dx[d],y + dy[d]
+            else:
+                x,y = nx,ny
+            cnt -= 1
+        return res
