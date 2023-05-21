@@ -27,20 +27,19 @@ class Solution:
         # 한쪽에서 bfs 를 돌려 
         def bfs_1():
             q = deque([])
-            vis = [[int(1e4)] * m for _ in range(n)]
+            vis = set()
             for i in range(n):
                 for j in range(m):
                     # 2를기준으로 넣기 
                     if grid[i][j] == 2:
                         q.append((i,j,0))
-                        vis[i][j] = 1000
+                        vis.add((i,j))
             res = int(1e10)
-            print(grid)
             while q:
                 x,y,dist = q.popleft()
                 for nx,ny in [(x + 1,y),(x - 1,y),(x,y + 1),(x,y - 1)]:
                     if not (0 <= nx < n and 0 <= ny < m):continue 
-                    if vis[nx][ny] != int(1e4):continue 
+                    if (nx,ny) in vis:continue 
                     # 3이면 연결된거니 답 갱신 
                     if grid[nx][ny] == 3:
                         res = min(res,dist)
@@ -49,8 +48,8 @@ class Solution:
                         continue
                     # 0이라면 
                     else:
-                        q.append((nx,ny,min(dist + 1,vis[nx][ny])))
-                        vis[nx][ny] = min(dist + 1,vis[nx][ny])
+                        q.append((nx,ny,dist + 1))
+                        vis.add((nx,ny))
             return res
         return bfs_1()
                         
