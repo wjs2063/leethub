@@ -51,7 +51,6 @@ class Solution:
         memo = defaultdict(int)
         ans = 0
         for i,v in enumerate(arr):
-            ans = (ans + memo[v]) % MOD
             # nums[1] - rev(nums[1]) 이있다고할때 memo 가 1증가한다.
             # 사실 이 한개만있어서는 정답에 추가될수없다 -> 2개쌍이 필요하기때문
             # 그다음번에 v라는 값이 나온다면 이전에 존재하던 memo[v] 값과 더해서 정답을 갱신하고 memo[v] 를 늘려준다.
@@ -60,6 +59,10 @@ class Solution:
             # ''''''  = 3인게 6개 존재 -> 6C3 -> 1 + (1 + 2) + (1 + 2 + 3) + ( 1 + 2 + 3 + 4) -> 20 
             # 처음에 1이 더해지고 그이후에 2 가 더해짐 
             memo[v] += 1
+        for k in memo:
+            v = memo[k]
+            if v >= 2:
+                ans = (ans + (v*(v - 1)) // 2 ) % MOD
         return ans
         
         
