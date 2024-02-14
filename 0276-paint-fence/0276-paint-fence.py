@@ -20,6 +20,9 @@ class Solution:
         dp = {}
         
         def dfs(x):
+            """
+            dfs(x) := x개의 post를 k가지 색으로 칠할수있는 경우 (3개이상 연속 x )
+            """
             if x == 1:
                 return k
             if x == 2:
@@ -29,4 +32,5 @@ class Solution:
                 return dp[x]
             dp[x] = (k - 1) * (dfs(x - 1) + dfs(x - 2))
             return dp[x]
+
         return dfs(n)
