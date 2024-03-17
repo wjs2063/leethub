@@ -1,21 +1,13 @@
 class Solution:
     def minMeetingRooms(self, intervals: List[List[int]]) -> int:
-        from heapq import heappush,heappop,heapify
-        intervals.sort(key = lambda x: x[0])
         
+        _max = max(x[-1] for x in intervals)
+        schedule = [0] * (_max + 1)
         
-        h = []
+        for sn,en in intervals:
+            schedule[en] -= 1
+            schedule[sn] += 1
         
-        res = 0
-        
-        for [sn,en] in intervals:
-            
-            while h and h[0][0] <= sn:
-                heappop(h)
-            heappush(h,[en,sn])
-            res = max(res,len(h))
-        return res
-        
-            
-                
-        
+        for i in range(1,_max +1):
+            schedule[i] += schedule[i - 1]
+        return max(schedule)
