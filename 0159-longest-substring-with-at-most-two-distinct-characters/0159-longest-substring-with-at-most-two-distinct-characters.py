@@ -1,19 +1,28 @@
-from collections import defaultdict
 class Solution:
     def lengthOfLongestSubstringTwoDistinct(self, s: str) -> int:
+        from collections import defaultdict
+        
+        temp = 0
+        ans = 0
+        l,r = 0,0
+        n = len(s)
         memo = defaultdict(int)
-        
-        ans = 0 
-        sn = 0
-        for i,v in enumerate(s):
+        while r < n:
             
-            memo[v] += 1
-            
-            while len(memo) > 2 :
-                memo[s[sn]] -= 1
-                if memo[s[sn]] == 0:
-                    memo.pop(s[sn])
-                sn += 1
-            ans = max(ans,i - sn + 1)
+            if len(memo) >= 2:
+                if s[r] in memo:
+                    memo[s[r]] += 1
+                    r += 1
+                    temp += 1
+                else:
+                    memo[s[l]] -= 1
+                    if memo[s[l]] == 0:
+                        del memo[s[l]]
+                    l += 1
+                    temp -= 1
+            else:
+                memo[s[r]] += 1
+                r += 1
+                temp += 1
+            ans = max(ans,temp)
         return ans
-        
