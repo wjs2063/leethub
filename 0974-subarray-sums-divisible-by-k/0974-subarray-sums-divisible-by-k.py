@@ -13,9 +13,10 @@ class Solution:
         p = 0 
         memo[0] = 1
         for i,v in enumerate(nums):
-
-            ans += memo[(p % k + v % k - k) % k]
-            memo[(p % k + v % k - k) % k] += 1
+            # 현재 스텝 이전까지의 누적합 p 
+            # p의 mod,와 현재값 v 의 mod 의 합 p + v - k 
+            ans += memo[(p + v - k) % k]
+            memo[(p + v - k) % k] += 1
             p += v
         return ans
                 
