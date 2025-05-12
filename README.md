@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/wjs2063/leethub/tree/master/0146-lru-cache) |
+| [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
 ## Linked List
 |  |
 | ------- |
@@ -35,4 +36,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/wjs2063/leethub/tree/master/1100-connecting-cities-with-minimum-cost) |
+## Array
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+## Divide and Conquer
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+## Sorting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+## Counting
+|  |
+| ------- |
+| [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
 <!---LeetCode Topics End-->
