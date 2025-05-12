@@ -8,6 +8,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0146-lru-cache](https://github.com/wjs2063/leethub/tree/master/0146-lru-cache) |
 | [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Linked List
 |  |
 | ------- |
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1100-connecting-cities-with-minimum-cost](https://github.com/wjs2063/leethub/tree/master/1100-connecting-cities-with-minimum-cost) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Heap (Priority Queue)
 |  |
 | ------- |
@@ -40,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -52,4 +55,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+## String
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Topological Sort
+|  |
+| ------- |
+| [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 <!---LeetCode Topics End-->
