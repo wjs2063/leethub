@@ -42,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+| [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Divide and Conquer
 |  |
@@ -63,4 +64,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+## Sliding Window
+|  |
+| ------- |
+| [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 <!---LeetCode Topics End-->
