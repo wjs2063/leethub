@@ -68,4 +68,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
+## Math
+|  |
+| ------- |
+| [0390-elimination-game](https://github.com/wjs2063/leethub/tree/master/0390-elimination-game) |
+## Recursion
+|  |
+| ------- |
+| [0390-elimination-game](https://github.com/wjs2063/leethub/tree/master/0390-elimination-game) |
 <!---LeetCode Topics End-->
