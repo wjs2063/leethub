@@ -19,10 +19,10 @@ class Solution:
             vis[node] = 1
             for next_node in graph[node]:
                 # 사이클인경우 False
-                if vis[next_node] == 2 :continue 
                 if vis[next_node] == 1:return False
                 # node -> destination 못가는경우 False 
-                if not dfs(next_node,destination):return False
+                if vis[next_node] == 0 :
+                    if not dfs(next_node,destination):return False
             # 방문 표시  
             vis[node] = 2
             return True
