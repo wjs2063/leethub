@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0273-integer-to-english-words](https://github.com/wjs2063/leethub/tree/master/0273-integer-to-english-words) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Topological Sort
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -86,12 +87,18 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Dynamic Programming
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Manacher
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
+## Greedy
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 <!---LeetCode Topics End-->
