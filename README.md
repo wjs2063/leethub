@@ -63,6 +63,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
 | [0273-integer-to-english-words](https://github.com/wjs2063/leethub/tree/master/0273-integer-to-english-words) |
+| [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Topological Sort
@@ -101,6 +102,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Binary Search
 | Problem Name | Difficulty |
@@ -110,4 +112,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/wjs2063/leethub/tree/main/0074-search-a-2d-matrix/) | Medium |
+## Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
+## Monotonic Stack
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
 <!---LeetCode Topics End-->
