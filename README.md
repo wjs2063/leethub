@@ -44,6 +44,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/wjs2063/leethub/tree/main/0074-search-a-2d-matrix/) | Medium |
 | [0169-majority-element](https://github.com/wjs2063/leethub/tree/master/0169-majority-element) |
+| [0413-arithmetic-slices](https://github.com/wjs2063/leethub/tree/main/0413-arithmetic-slices/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 ## Divide and Conquer
@@ -74,6 +75,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sliding Window
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [0413-arithmetic-slices](https://github.com/wjs2063/leethub/tree/main/0413-arithmetic-slices/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 ## Math
 | Problem Name | Difficulty |
@@ -94,6 +96,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0005-longest-palindromic-substring](https://github.com/wjs2063/leethub/tree/main/0005-longest-palindromic-substring/) | Medium |
+| [0413-arithmetic-slices](https://github.com/wjs2063/leethub/tree/main/0413-arithmetic-slices/) | Medium |
 | [3302-find-the-lexicographically-smallest-valid-sequence](https://github.com/wjs2063/leethub/tree/main/3302-find-the-lexicographically-smallest-valid-sequence/) | Medium |
 ## Manacher
 | Problem Name | Difficulty |
