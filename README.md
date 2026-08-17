@@ -47,6 +47,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0413-arithmetic-slices](https://github.com/wjs2063/leethub/tree/main/0413-arithmetic-slices/) | Medium |
 | [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -115,6 +116,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0074-search-a-2d-matrix](https://github.com/wjs2063/leethub/tree/main/0074-search-a-2d-matrix/) | Medium |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -123,4 +125,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
+## Depth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+## Breadth-First Search
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+## Union-Find
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 <!---LeetCode Topics End-->
