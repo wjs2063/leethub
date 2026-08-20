@@ -48,6 +48,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0643-maximum-average-subarray-i](https://github.com/wjs2063/leethub/tree/master/0643-maximum-average-subarray-i) |
 | [2220-find-all-possible-recipes-from-given-supplies](https://github.com/wjs2063/leethub/tree/master/2220-find-all-possible-recipes-from-given-supplies) |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+| [3834-merge-adjacent-equal-elements](https://github.com/wjs2063/leethub/tree/main/3834-merge-adjacent-equal-elements/) | Medium |
 ## Divide and Conquer
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -121,6 +122,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [0402-remove-k-digits](https://github.com/wjs2063/leethub/tree/main/0402-remove-k-digits/) | Medium |
+| [3834-merge-adjacent-equal-elements](https://github.com/wjs2063/leethub/tree/main/3834-merge-adjacent-equal-elements/) | Medium |
 ## Monotonic Stack
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -137,4 +139,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
+## Simulation
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [3834-merge-adjacent-equal-elements](https://github.com/wjs2063/leethub/tree/main/3834-merge-adjacent-equal-elements/) | Medium |
 <!---LeetCode Topics End-->
