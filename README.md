@@ -130,17 +130,24 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/wjs2063/leethub/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Breadth-First Search
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/wjs2063/leethub/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Union-Find
 | Problem Name | Difficulty |
 | ------- | ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/wjs2063/leethub/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 | [3619-count-islands-with-total-value-divisible-by-k](https://github.com/wjs2063/leethub/tree/main/3619-count-islands-with-total-value-divisible-by-k/) | Medium |
 ## Simulation
 | Problem Name | Difficulty |
 | ------- | ------- |
 | [3834-merge-adjacent-equal-elements](https://github.com/wjs2063/leethub/tree/main/3834-merge-adjacent-equal-elements/) | Medium |
+## Graph Theory
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [1319-number-of-operations-to-make-network-connected](https://github.com/wjs2063/leethub/tree/main/1319-number-of-operations-to-make-network-connected/) | Medium |
 <!---LeetCode Topics End-->
